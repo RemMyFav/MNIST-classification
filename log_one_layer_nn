@@ -1,0 +1,201 @@
+---------
+#epoch 0
+train correctness 0.32162test correctness 0.32600---------
+#epoch 1
+train correctness 0.46655test correctness 0.46880---------
+#epoch 2
+train correctness 0.55410test correctness 0.55500---------
+#epoch 3
+train correctness 0.60995test correctness 0.60680---------
+#epoch 4
+train correctness 0.64743test correctness 0.64850---------
+#epoch 5
+train correctness 0.67502test correctness 0.67850---------
+#epoch 6
+train correctness 0.69590test correctness 0.70070---------
+#epoch 7
+train correctness 0.71415test correctness 0.71900---------
+#epoch 8
+train correctness 0.72712test correctness 0.73340---------
+#epoch 9
+train correctness 0.74037test correctness 0.74480---------
+#epoch 10
+train correctness 0.75035test correctness 0.75280---------
+#epoch 11
+train correctness 0.75958test correctness 0.76180---------
+#epoch 12
+train correctness 0.76708test correctness 0.76810---------
+#epoch 13
+train correctness 0.77402test correctness 0.77380---------
+#epoch 14
+train correctness 0.78018test correctness 0.77950---------
+#epoch 15
+train correctness 0.78563test correctness 0.78460---------
+#epoch 16
+train correctness 0.79073test correctness 0.79010---------
+#epoch 17
+train correctness 0.79477test correctness 0.79450---------
+#epoch 18
+train correctness 0.79938test correctness 0.79910---------
+#epoch 19
+train correctness 0.80300test correctness 0.80210---------
+#epoch 20
+train correctness 0.80707test correctness 0.80640---------
+#epoch 21
+train correctness 0.80972test correctness 0.80940---------
+#epoch 22
+train correctness 0.81292test correctness 0.81170---------
+#epoch 23
+train correctness 0.81555test correctness 0.81500---------
+#epoch 24
+train correctness 0.81812test correctness 0.81760---------
+#epoch 25
+train correctness 0.82075test correctness 0.82060---------
+#epoch 26
+train correctness 0.82305test correctness 0.82130---------
+#epoch 27
+train correctness 0.82508test correctness 0.82430---------
+#epoch 28
+train correctness 0.82683test correctness 0.82750---------
+#epoch 29
+train correctness 0.82913test correctness 0.82830---------
+#epoch 30
+train correctness 0.83068test correctness 0.83040---------
+#epoch 31
+train correctness 0.83255test correctness 0.83210---------
+#epoch 32
+train correctness 0.83455test correctness 0.83370---------
+#epoch 33
+train correctness 0.83615test correctness 0.83620---------
+#epoch 34
+train correctness 0.83815test correctness 0.83670---------
+#epoch 35
+train correctness 0.83928test correctness 0.83840---------
+#epoch 36
+train correctness 0.84105test correctness 0.83880---------
+#epoch 37
+train correctness 0.84238test correctness 0.84060---------
+#epoch 38
+train correctness 0.84383test correctness 0.84140---------
+#epoch 39
+train correctness 0.84482test correctness 0.84370---------
+#epoch 40
+train correctness 0.84577test correctness 0.84440---------
+#epoch 41
+train correctness 0.84763test correctness 0.84520---------
+#epoch 42
+train correctness 0.84843test correctness 0.84560---------
+#epoch 43
+train correctness 0.84955test correctness 0.84670---------
+#epoch 44
+train correctness 0.85018test correctness 0.84900---------
+#epoch 45
+train correctness 0.85183test correctness 0.85010---------
+#epoch 46
+train correctness 0.85293test correctness 0.85150---------
+#epoch 47
+train correctness 0.85377test correctness 0.85220---------
+#epoch 48
+train correctness 0.85465test correctness 0.85280---------
+#epoch 49
+train correctness 0.85600test correctness 0.85510---------
+#epoch 50
+train correctness 0.85667test correctness 0.85570---------
+#epoch 51
+train correctness 0.85793test correctness 0.85650---------
+#epoch 52
+train correctness 0.85887test correctness 0.85760---------
+#epoch 53
+train correctness 0.85950test correctness 0.85850---------
+#epoch 54
+train correctness 0.86003test correctness 0.85810---------
+#epoch 55
+train correctness 0.86123test correctness 0.85890---------
+#epoch 56
+train correctness 0.86215test correctness 0.85920---------
+#epoch 57
+train correctness 0.86278test correctness 0.85930---------
+#epoch 58
+train correctness 0.86332test correctness 0.86070---------
+#epoch 59
+train correctness 0.86433test correctness 0.86240---------
+#epoch 60
+train correctness 0.86522test correctness 0.86270---------
+#epoch 61
+train correctness 0.86575test correctness 0.86290---------
+#epoch 62
+train correctness 0.86615test correctness 0.86310---------
+#epoch 63
+train correctness 0.86725test correctness 0.86410---------
+#epoch 64
+train correctness 0.86803test correctness 0.86510---------
+#epoch 65
+train correctness 0.86872test correctness 0.86490---------
+#epoch 66
+train correctness 0.86923test correctness 0.86550---------
+#epoch 67
+train correctness 0.87020test correctness 0.86610---------
+#epoch 68
+train correctness 0.87057test correctness 0.86570---------
+#epoch 69
+train correctness 0.87147test correctness 0.86630---------
+#epoch 70
+train correctness 0.87208test correctness 0.86590---------
+#epoch 71
+train correctness 0.87287test correctness 0.86720---------
+#epoch 72
+train correctness 0.87307test correctness 0.86780---------
+#epoch 73
+train correctness 0.87378test correctness 0.86820---------
+#epoch 74
+train correctness 0.87468test correctness 0.86780---------
+#epoch 75
+train correctness 0.87503test correctness 0.86860---------
+#epoch 76
+train correctness 0.87553test correctness 0.86870---------
+#epoch 77
+train correctness 0.87618test correctness 0.86950---------
+#epoch 78
+train correctness 0.87652test correctness 0.86980---------
+#epoch 79
+train correctness 0.87733test correctness 0.86990---------
+#epoch 80
+train correctness 0.87755test correctness 0.87060---------
+#epoch 81
+train correctness 0.87810test correctness 0.87100---------
+#epoch 82
+train correctness 0.87858test correctness 0.87160---------
+#epoch 83
+train correctness 0.87908test correctness 0.87270---------
+#epoch 84
+train correctness 0.87932test correctness 0.87280---------
+#epoch 85
+train correctness 0.87988test correctness 0.87370---------
+#epoch 86
+train correctness 0.88047test correctness 0.87400---------
+#epoch 87
+train correctness 0.88080test correctness 0.87410---------
+#epoch 88
+train correctness 0.88120test correctness 0.87480---------
+#epoch 89
+train correctness 0.88140test correctness 0.87500---------
+#epoch 90
+train correctness 0.88177test correctness 0.87550---------
+#epoch 91
+train correctness 0.88212test correctness 0.87580---------
+#epoch 92
+train correctness 0.88252test correctness 0.87610---------
+#epoch 93
+train correctness 0.88310test correctness 0.87670---------
+#epoch 94
+train correctness 0.88348test correctness 0.87730---------
+#epoch 95
+train correctness 0.88370test correctness 0.87730---------
+#epoch 96
+train correctness 0.88413test correctness 0.87800---------
+#epoch 97
+train correctness 0.88462test correctness 0.87780---------
+#epoch 98
+train correctness 0.88513test correctness 0.87770---------
+#epoch 99
+train correctness 0.88562test correctness 0.87830
