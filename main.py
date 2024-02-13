@@ -8,6 +8,7 @@ from read_data import *
 import numpy as np
 import random
 from mlp import OneLayerNN, TwoLayerNN, cross_entropy_loss_function
+import matplotlib.pyplot as plt
 
 class DataLoader():
     def __init__(self, train = False, batch_size = 16, shuffle = True):
@@ -69,7 +70,9 @@ class Trainer():
         # self.nn = OneLayerNN(num_input_unit, num_out_unit)
         self.nn = TwoLayerNN(num_input_unit, num_hidden_unit, num_out_unit)
         self.learning_rate = 1e-2
-        self.log = my_log('log_one_layer_nn')
+        self.log = my_log('log_two_layer_nn')
+        self.train_correctness_log = []  # List to store training correctness
+        self.test_correctness_log = []  # List to store test correctness
 
     def inference(self, data_loader):
         n_correct = 0
@@ -83,7 +86,7 @@ class Trainer():
         return n_correct / float(n_all)
 
     def train(self):
-        for epoch in range(100):  # training epochs
+        for epoch in range(100):
             n_step = len(self.train_loader) // self.batch_size
             self.train_loader.reset_one_epoch()
             for i_step in range(n_step):
@@ -94,18 +97,31 @@ class Trainer():
 
             if epoch % 1 == 0:
                 self.log.write('---------\n')
-                self.log.write('#epoch %d\n'%(epoch))
+                self.log.write('#epoch %d\n' % (epoch))
                 self.train_loader.reset_one_epoch()
                 train_correctness = self.inference(self.train_loader)
+                self.train_correctness_log.append(train_correctness)  # Record training correctness
                 self.test_loader.reset_one_epoch()
                 test_correctness = self.inference(self.test_loader)
-                self.log.write('train correctness %.5f'%(train_correctness))
-                self.log.write('test correctness %.5f'%(test_correctness))
+                self.test_correctness_log.append(test_correctness)  # Record test correctness
+                self.log.write('train correctness %.5f' % (train_correctness))
+                self.log.write('test correctness %.5f' % (test_correctness))
 
             self.log.flush()
+
         # Dump your trained model here.
         import pickle
         pickle.dump(self.nn, open('trained_model.pkl', 'wb'))
+        
+        # Plotting
+        plt.plot(self.train_correctness_log, label='Training Correctness')
+        plt.plot(self.test_correctness_log, label='Testing Correctness')
+        plt.xlabel('Epoch')
+        plt.ylabel('Correctness')
+        plt.title('Training and Testing Correctness over Epochs')
+        plt.legend()
+        plt.savefig('two_nn_plot.png')
+        plt.show()
 
 if __name__ == '__main__':
     trainer = Trainer()
