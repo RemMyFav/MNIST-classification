@@ -12,7 +12,11 @@ def cross_entropy_loss_function(prediction, label):
     #           and d is the number of different categories
     # label: The ground truth labels, it can be a vector with length N, and each element in this vector stores the ground truth category for each sample.
     # Note: we take the average among N different samples to get the final loss.
-    return - np.sum(np.dot(label, np.log(prediction))) / label.shape[0]
+    N = label.shape[0]
+    d = prediction.shape[1]
+    labels_one_hot = np.zeros((N, d))
+    labels_one_hot[np.arange(N), label] = 1
+    return np.sum(- labels_one_hot * np.log(prediction)) / N
 
 def sigmoid(x):
     # TODO: compute the softmax with the input x: y = 1 / (1 + exp(-x))

@@ -67,10 +67,10 @@ class Trainer():
         num_hidden_unit = 50  # number units of the hidden layer (if having two layers)
         num_input_unit = 784  # number of the input vector dimention, MNIST is 28 * 28 res, so 784 input unit
         num_out_unit = 10  # number of the output layer
-        # self.nn = OneLayerNN(num_input_unit, num_out_unit)
-        self.nn = TwoLayerNN(num_input_unit, num_hidden_unit, num_out_unit)
+        self.nn = OneLayerNN(num_input_unit, num_out_unit)
+        # self.nn = TwoLayerNN(num_input_unit, num_hidden_unit, num_out_unit)
         self.learning_rate = 1e-2
-        self.log = my_log('log_two_layer_nn')
+        self.log = my_log('log_one_layer_nn')
         self.train_correctness_log = []  # List to store training correctness
         self.test_correctness_log = []  # List to store test correctness
 
@@ -120,7 +120,7 @@ class Trainer():
         plt.ylabel('Correctness')
         plt.title('Training and Testing Correctness over Epochs')
         plt.legend()
-        plt.savefig('two_nn_plot.png')
+        plt.savefig('one_nn_plot.png')
         plt.show()
 
 if __name__ == '__main__':
